@@ -1,0 +1,2 @@
+LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64 python train.py --arch squeezenet --samples-dir /mnt/data/samples/deeprec-sib18 --seed 0
+LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64 python train.py --arch mobilenet --samples-dir /mnt/data/samples/deeprec-sib18 --seed 100
